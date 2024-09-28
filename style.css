@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(254, 235, 200);
+}
+
+header {
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-header {
+    width: 25%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li a {
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+
+#introducao {
+    display: flex;
+    height: 250px;
+    align-items: center;
+
+}
+
+#introducao div {
+    width: 50%;
+    padding-right: 100px;
+    padding-left: 100;
+    margin-top: 50px;
+}
+
+#sobre-nos {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgb(189, 188, 139);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(48, 43, 43);
+
+}
+
+#produtos {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#produtos h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.conteudo-produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.produto {
+    width: 200px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(189, 188, 139);
+    color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+footer p {
+    margin: 0;
+}
+
+.direitos-autorais {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

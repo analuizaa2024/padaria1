@@ -1,3 +1,3 @@
-# padaria1
+# site-padaria
 
-https://analuizaa2024.github.oi/padaria1
+https://kaua-aquino.github.io/site-padaria
