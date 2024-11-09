@@ -36,7 +36,7 @@ header {
 
 #introducao {
     display: flex;
-    height: 250px;
+    min-height: 250px;
     align-items: center;
 
 }
@@ -52,7 +52,7 @@ header {
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgb(189, 188, 139);
-    height: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     color: rgb(48, 43, 43);
@@ -98,3 +98,49 @@ footer p {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+
+@media (max-width: 875px){
+  #introducao{
+    flex-direction: column;
+    text-align: center;
+  }
+  #introducao div{
+    padding-right: o ;
+    padding-left: 0;
+    width: 80%;
+  }
+  header{ 
+    flex-direction: column;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  .logo-header{
+    width: 300px;
+  }
+  .conteudo-produtos{
+    flex-direction: column;
+    align-items: center;
+
+    
+    }
+    .menu ul{
+        padding-left: 0%;
+        margin: auto;
+    }
+
+  }
+  #produtos{
+    padding-left: 0;
+    padding-right: 0;
+
+    
+  }
+
+  .produto{
+    width: 80%;
+  }
+  #sobre-nos{
+    text-align: center;
+  }
+
